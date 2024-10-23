@@ -1,0 +1,15 @@
+{
+  //Annual interest rate in %
+  "AnnualInterestRate": 513.8,
+
+  //Specify how the interest rate changed across the years in a file.
+  //Optional, when empty - the program will use the 'AnnualInterestRate' value
+  "InterestRatesFile": "interests.xlsx",
+
+  //Allowed extensions: .csv, .xlxs
+  //Optional, when empty - the program will ask for file
+  "inputFile": "input.xlsx",
+  "outputFile": "output.xlsx",
+
+  "OverwriteExistingFile": true
+}
